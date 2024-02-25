@@ -1,7 +1,6 @@
-# Login-automate
+# Login-automate by Moveinsync
 
-## Javascript script to login to
-<a href="https://demoqa.com/login" ></a>
+## Javascript script to login to a website
 
 ## Requirements:
 Node installed in your machine.
