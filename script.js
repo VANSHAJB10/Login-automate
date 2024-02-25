@@ -10,9 +10,10 @@ const password = 'your_password';
 
   await page.goto('https://demoqa.com/login');
 
-  await page.type('VanshajB10', username);
-  await page.type('Vanshaj@1002*', password);
+  await page.type('#userName', 'VanshajB10');
+  await page.type('#password', 'Vanshaj@1002*');
   await page.click('#login');
+  
   await page.waitForNavigation();
 
 })();
